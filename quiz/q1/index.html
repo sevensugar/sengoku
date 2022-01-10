@@ -11,13 +11,28 @@
   </head>
   <body>
     <div class="wrapper">
-      <h1>第一問　武田信玄</h1>
-      <img src="map.png" class="map" />
-      <div>
-        <a href="incorrect.html">①</a>
-        <a href="correct.html">②</a>
-        <a href="incorrect.html">③</a>
-      </div>
+      <h1>第一問 武田信玄</h1>
+      <img width="500px" src="map.png" usemap="#ImageMap" alt="マップ" />
+      <map name="ImageMap">
+        <area
+          shape="circle"
+          coords="143,263,15"
+          href="incorrect.html"
+          alt="①"
+        />
+        <area
+          shape="circle"
+          coords="166,301,15"
+          href="correct.html"
+          alt="②"
+        />
+        <area
+          shape="circle"
+          coords="202,253,16"
+          href="incorrect.html"
+          alt="③"
+        />
+      </map>
       <!-- ヒントを追加する -->
     </div>
   </body>

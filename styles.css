@@ -6,7 +6,7 @@ body {
 }
 
 .main-wrapper {
-  display: flex; 
+  display: flex;
   align-items: center; /*上下を中央によせる*/
   justify-content: center; /*左右を中央によせる*/
   flex-flow: column; /*縦一列にする*/
